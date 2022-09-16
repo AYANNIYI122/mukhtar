@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Blog Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONT-MONTSERRAT -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">EAGATOR</a>
+            <ul class="nav__items">
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="signin.html">signin</a></li>
+                <li class="nav__profile">
+                    <div class="avatar">
+                        <img src="./images/avatar1.jpg" alt="">
+
+                    </div>
+                    <ul>
+                        <li><a href="dashboard.html">dashboard</a></li>
+                        <li><a href="logout.html">logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <button id="open__nav-btn"> <i class="fa fa-bars"></i></button>
+            <button id="close__nav-btn"> <i class="fa fa-bars"></i></button>
+           
+       </div>
+    </nav>
+
+
+<section class="dashboard">
+    <div class="container dashboard__container">
+        <button id="show__sidebar-btn" class="sidebar__toggle"><i class="fa fa-angle-right-b"></i></button>
+        <button id="hide__sidebar-btn" class="sidebar__toggle"><i class="fa fa-angle-left-b"></i></button>
+        <aside>
+            <ul>
+            <li><a href="add-post.html"><i class="fa fa-pen"></i>
+                    <h5>Add Post</h5>
+                </a>
+            </li>
+            <li><a href="dashboard.html"><i class="fa fa-postcard"></i>
+                <h5>Manage Post</h5>
+            </a>
+            </li>
+            <li><a href="add-user.html"><i class="fa fa-user-plus"></i>
+                <h5>Add User</h5>
+            </a>
+            </li>
+            <li><a href="manage-users.html"  class="active"><i class="fa fa-users-alt"></i>
+                <h5>Manage User</h5>
+            </a>
+            </li>
+            <li><a href="add-category.html"><i class="fa fa-edit"></i>
+                <h5>Add Category</h5>
+            </a>
+            </li>
+            <li><a href="manage-categories.html"><i class="fa fa-list-ul"></i>
+                <h5>Manage-categories</h5>
+            </a>
+            </li>
+
+            </ul>
+            
+        </aside>
+        <main>
+            <h2>Manage Users</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                        <th>AAdmin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ernest Achiever</td>
+                        <td>Achiever</td>
+                        <td><a href="edit-user.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Doe </td>
+                        <td>Jane</td>
+                        <td><a href="edit-user.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Vinyo</td>
+                        <td>Daniel</td>
+                        <td><a href="edit-user.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-category.html" class="btn sm danger">Delete</a></td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </main>
+</div>
+</section>
+
+<footer>
+    <div class="footer__socials">
+        <a href="https://youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <div class="container footer-container">
+        <article>
+            <h4>Categories</h4>
+            <ul>
+                <li><a href="">Art</a></li>
+                <li><a href="">Wild Life</a></li>
+                <li><a href="">Travel</a></li>
+                <li><a href="">Music</a></li>
+                <li><a href="">Science and Technology</a></li>
+                <li><a href="">Food</a></li>
+                
+
+            </ul>
+        </article>
+        <article>
+            <h4> Support</h4>
+            <ul>
+                <li><a href="">Online support</a></li>
+                <li><a href="">call Numbers</a></li>
+                <li><a href="">Emails</a></li>
+                <li><a href="">Social Support</a></li>
+                <li><a href="">Location</a></li>
+                <li><a href="">Food</a></li>
+                
+
+            </ul>
+        </article>
+        <article>
+            <h4>Blog</h4>
+            <ul>
+                <li><a href="">Safety</a></li>
+                <li><a href="">Repair</a></li>
+                <li><a href="">Recent</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">categories</a></li>
+                
+                
+
+            </ul>
+        </article>
+        <article>
+            <h4>Permalinks</h4>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Music</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                
+
+            </ul>
+        </article>
+
+    </div>
+    <div class="footer__copyright">
+            <small>Copyright & copy; MUKHTAR</small>
+    </div>
+</footer>
+
+
+<script src="./main.js"></script>  
+</body> 
+</html>
