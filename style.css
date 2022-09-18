@@ -208,12 +208,12 @@ nav button {
     gap: 1rem;
     margin-top: 1.2rem;
 }
-.post__author-avatar {
+/* .post__author-avatar {
     width: 2.5rem;
     height:  2.5rem;
     border-radius: var(--card-border-radius-3);
     overflow: hidden;
-}
+} */
 
 /*===================== FEATURED=====================================
 ===========================================*/
@@ -435,34 +435,10 @@ footer ul a:hover {
     align-items: center;
     box-shadow: -2rem 3rem 7rem rgba(0, 0, 0, 0.7);
     border-top: 1px solid var(--color-bg);
-    animation: animateDropdown 400ms 0s ease;
-    opacity: 0;
-    transform-origin: top;
+    
  }
- .nav__items li:nth-child(2) {
-    animation-delay: 200ms;
- } 
- .nav__items li:nth-child(3) {
-    animation-delay: 400ms;
- } 
- .nav__items li:nth-child(4) {
-    animation-delay: 600ms;
- } 
- .nav__items li:nth-child(5 ) {
-    animation-delay: 800ms;
- } 
 
-/* nav dropdown animae */
-@keyframes animateDropdown  {
-    0% {
-        transform: rotateX(90deg);
-    }
-    100% {
-        transform: rotateX(0deg);
-        opacity: 1;
-    }
 
-}
 
  .nav__items li a{
     border-radius: 0;
@@ -695,7 +671,7 @@ footer ul a:hover {
     width: var(--form-width);
 }
 .alert__message{
-    background: ;
+    
     padding: 0.8rem 1.4rem;
     margin-bottom: 1rem;
     border-radius:var(--card-border-radius-2) ;
